@@ -1,0 +1,15 @@
+console.log("Para saber se é um réptil ou não."+"\n"+"Por favor,"+"\n"+ "Responda apenas com Sim ou Não")
+
+var pergunta1=prompt("Coloca ovo?")
+var pergunta2=prompt("Possui penas?")
+var pergunta3=prompt("Respira embaixo d´gua?")
+
+
+if (pergunta1=="sim"){
+if(pergunta2=="sim"){
+if(pergunta3=="sim")
+ {console.log("É um réptil")
+ }
+  else{console.log("Não é um réptil")}
+}else { console.log("Não é um réptil")}
+}else {console.log("Não é um réptil")}
